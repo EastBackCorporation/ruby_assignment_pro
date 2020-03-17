@@ -1,1 +1,7 @@
-# ruby_assignment_pro
+# 課題
+
+## 提出方法
+
+## 実行方法
+
+## よく使うLinuxコマンド
