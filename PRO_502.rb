@@ -1,6 +1,8 @@
-# coding: utf-8
+# frozen_string_literal: true
+
+# テキスト: プロを目指す人のためのRuby入門
 #
-# 課題0502
+# 課題502
 # 文字列を要素にもつ配列を引数で受け取って、
 # 要素をキー(key)に、要素の文字数を値(value)にもつ
 # ハッシュを返却(return)する array_to_hash メソッドを作成してください。

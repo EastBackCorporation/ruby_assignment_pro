@@ -1,6 +1,8 @@
-# coding: utf-8
+# frozen_string_literal: true
+
+# テキスト: プロを目指す人のためのRuby入門
 #
-# 課題0701
+# 課題701
 # 以下の機能をもつクラスを定義して下さい。
 #
 # ・「ロボット」を表すRobotクラスを作成して下さい。
@@ -13,14 +15,12 @@
 
 # ここからクラスを書いて下さい
 
-
 # ここまでにクラスを書いて下さい。
 
-[ { name: 'ドラえもん', type: '猫' },
-  { name: 'アトム', type: '人' },
-  { name: 'ルンバ', type: '掃除機' },
-  { name: 'pepper', type: '人' }
-].each do |robot_data|
+[{ name: 'ドラえもん', type: '猫' },
+ { name: 'アトム', type: '人' },
+ { name: 'ルンバ', type: '掃除機' },
+ { name: 'pepper', type: '人' }].each do |robot_data|
   # オブジェクト作成時にロボットの名前を登録する
   robot = Robot.new(robot_data[:name])
   # オブジェクトにタイプを設定する。

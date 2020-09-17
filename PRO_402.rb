@@ -1,7 +1,7 @@
 # frozen_string_literal: true
-
+# テキスト: プロを目指す人のためのRuby入門
 #
-# 課題0402
+# 課題402
 #
 # (1) Numeric(数値)
 # (2) String(文字列)
